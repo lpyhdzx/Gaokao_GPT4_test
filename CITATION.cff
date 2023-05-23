@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: Liu
+    given-names: Peiyu
+title: "Gaokao test"
+version: 1.0.0
