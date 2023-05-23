@@ -7,15 +7,15 @@ Now, the question arises: what would happen if GPT-4 were to take the Beijing 20
 The reason for taking this approach is to thoroughly examine the capabilities of GPT-4 from the perspective of tackling college entrance examinations. We aim to gain a comprehensive understanding of the boundaries of this large-scale model. By doing so, we hope to contribute to a more comprehensive understanding of such models.
 ## Data
 ```shell
-"pre_str": 答题前的准备，
-"read_material": 材料阅读，
-"question_prompt": 问题前的提示，
-"number": 题目编号，
-"material": 题目材料，
-"questions": 问题，
+"pre_str": Prepariation before starting the exams，
+"read_material": Prompts of reading materials.
+"question_prompt": Prompts before the questions.
+"number": Number of the question.
+"material": Materials required for answering the questions.
+"questions": Questions.
 ```
 ## Testing
-We use GPT-4 for testing and report the results in [GPT-4之高考评测](https://mp.weixin.qq.com/s/7fWnuSb9hBAh22lYMqSs9Q).![测试结果](./figures/results.png)
+We use GPT-4 for testing and report the results in [GPT-4之高考评测(Gaokao test)](https://mp.weixin.qq.com/s/7fWnuSb9hBAh22lYMqSs9Q).![测试结果](./figures/results.png)
 ## TODO
 - [ ] More years and provinces of exams.
 - [ ] Automated evaluation methods.
