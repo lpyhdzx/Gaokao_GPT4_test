@@ -6,6 +6,7 @@ Now, the question arises: what would happen if GPT-4 were to take the Beijing 20
 
 The reason for taking this approach is to thoroughly examine the capabilities of GPT-4 from the perspective of tackling college entrance examinations. We aim to gain a comprehensive understanding of the boundaries of this large-scale model. By doing so, we hope to contribute to a more comprehensive understanding of such models.
 ## Data
+We put the data in `processed` directory. All the data are stored in JSON format and here is the schema.
 ```shell
 "pre_str": Prepariation before starting the exams.
 "read_material": Prompts of reading materials.
